@@ -1,0 +1,41 @@
+[0.371s] Invoking command in '/home/sakamoto/ros2_ws/src/mypkg': PYTHONPATH=/home/sakamoto/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/sakamoto/ros2_ws/src/mypkg/build/mypkg/build install --prefix /home/sakamoto/ros2_ws/src/mypkg/install/mypkg --record /home/sakamoto/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed
+[0.500s] running egg_info
+[0.501s] creating build/mypkg/mypkg.egg-info
+[0.501s] writing build/mypkg/mypkg.egg-info/PKG-INFO
+[0.501s] writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.501s] writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+[0.501s] writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+[0.501s] writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+[0.502s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.520s] reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.521s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.521s] running build
+[0.521s] running build_py
+[0.522s] creating /home/sakamoto/ros2_ws/src/mypkg/build/mypkg/build
+[0.522s] creating /home/sakamoto/ros2_ws/src/mypkg/build/mypkg/build/lib
+[0.522s] creating /home/sakamoto/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.522s] copying mypkg/talker.py -> /home/sakamoto/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.522s] copying mypkg/listener.py -> /home/sakamoto/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.522s] copying mypkg/__init__.py -> /home/sakamoto/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.522s] running install
+[0.522s] running install_lib
+[0.522s] creating /home/sakamoto/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg
+[0.523s] copying /home/sakamoto/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/talker.py -> /home/sakamoto/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg
+[0.523s] copying /home/sakamoto/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /home/sakamoto/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg
+[0.523s] copying /home/sakamoto/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/__init__.py -> /home/sakamoto/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg
+[0.523s] byte-compiling /home/sakamoto/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg/talker.py to talker.cpython-36.pyc
+[0.523s] byte-compiling /home/sakamoto/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg/listener.py to listener.cpython-36.pyc
+[0.523s] byte-compiling /home/sakamoto/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg/__init__.py to __init__.cpython-36.pyc
+[0.523s] running install_data
+[0.523s] creating /home/sakamoto/ros2_ws/src/mypkg/install/mypkg/share/ament_index
+[0.524s] creating /home/sakamoto/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index
+[0.524s] creating /home/sakamoto/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[0.524s] copying resource/mypkg -> /home/sakamoto/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[0.524s] copying package.xml -> /home/sakamoto/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[0.524s] running install_egg_info
+[0.525s] Copying build/mypkg/mypkg.egg-info to /home/sakamoto/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages/mypkg-0.0.0-py3.6.egg-info
+[0.525s] running install_scripts
+[0.536s] Installing listener script to /home/sakamoto/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.536s] Installing talker script to /home/sakamoto/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.536s] writing list of installed files to '/home/sakamoto/ros2_ws/src/mypkg/build/mypkg/install.log'
+[0.550s] Invoked command in '/home/sakamoto/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/sakamoto/ros2_ws/src/mypkg/install/mypkg/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/sakamoto/ros2_ws/src/mypkg/build/mypkg/build install --prefix /home/sakamoto/ros2_ws/src/mypkg/install/mypkg --record /home/sakamoto/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed
