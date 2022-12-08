@@ -7,7 +7,7 @@
 7     steps:
 8       - uses: actions/checkout@v2    
 9       - name: build and test
-10         run: |
+10         ru: |
 11           rsync -av ./ /root/ros2_ws/src/mypkg/    
 12           cd /root/ros2_ws
 13           rosdep update                                            
